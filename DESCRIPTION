@@ -1,0 +1,21 @@
+Package: spuriouscorr
+Title: Simulate and Visualize Spurious Correlations
+Version: 0.1.0
+Authors@R: 
+    person("Austin", "Pearce", email = "austinwpearce@gmail.com",
+           role = c("aut", "cre"))
+Description: Provides tools for simulating XY data with various patterns
+    (linear trends, cloud/potato, U-shaped, star-shaped) and visualizing
+    them with a dark Tron-like ggplot theme. Useful for teaching about
+    spurious correlations and regression.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    ggplot2,
+    tibble,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
